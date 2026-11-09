@@ -1,0 +1,17 @@
+name: flutter_devmenu
+description: In-app dev menu for Flutter debug builds — switch environment, inspect session/token, read logs. Shake to open.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sensors_plus: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
